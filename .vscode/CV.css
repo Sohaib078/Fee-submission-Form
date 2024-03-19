@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  #main-container {
+    background-color: white;
+    width: 1000px;
+    height: 1500px;
+    margin: 0 auto;
+    border:  1px solid black;
+  }
+
+  #header {
+    background-color: hsl(0, 0%, 75%);
+    text-align: center;
+    padding: 80px 0;
+    padding-left: 15rem;
+  }
+  hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  #left {
+    background-color: #E6E6E6;
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin-left: 20px;
+   margin-top: -15rem;
+    max-width: 300px;
+  }
+  #right {
+    width: 60%;
+    float: right;
+  }
+  #picture {
+    text-align: center;
+    
+  }
+  #picture img {
+
+    display: center;
+    max-width: 70%;
+    border-radius: 50%;
+  }
+  #left div {
+    margin-bottom: 20px;
+  }
+  .Male img,
+  .Date img,
+  .Address img,
+  .Contact img,
+  .Email img {
+    margin-right: 50px;
+    text-align: center;
+  }
+  h1, h2 {
+    margin: 0;
+  }
+  h1 {
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    background-color:  hsl(0, 0%, 75%);
+  }
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
+    line-height: 1.7;
+  }
+ 
